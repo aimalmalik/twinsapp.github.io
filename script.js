@@ -1,20 +1,26 @@
 const makananData = [
     {
         id: 1,
-        nama: 'Nasi Goreng',
-        deskripsi: 'Nasi goreng yang lezat dengan bumbu khas.',
-        harga: 25000,
-        gambar: 'img/mid2.jpg',
-        // ...
+        nama: 'Smoothies Mangga',
+        deskripsi: 'Minuman Highclass',
+        harga: '10.000',
+        gambar: 'gambar/minuman1.jpg',
     },
     
     {
         id: 2,
-        nama: 'Nasi Goreng',
-        deskripsi: 'Nasi goreng yang lezat dengan bumbu khas.',
-        harga: 25000,
-        gambar: 'img/mid1.jpg',
-        // ...
+        nama: 'Smoothies Alpukad',
+        deskripsi: 'Minuman Highclass',
+        harga: '10.000',
+        gambar: 'gambar/minuman2.jpg',
+    },
+
+    {
+        id: 3,
+        nama: 'Smoothies Jeruk',
+        deskripsi: 'Minuman Highclass',
+        harga: '10.000',
+        gambar: 'gambar/minuman3.jpg',
     },
     
     // ... item lainnya
@@ -23,21 +29,28 @@ const makananData = [
 const minumanData = [
     {
         id: 1,
-        nama: 'Es Teh Manis',
-        deskripsi: 'Minuman teh manis yang segar.',
-        harga: 5000,
-        gambar: 'img/mid3.jpg',
-        // ...
+        nama: 'Smoothies Mangga',
+        deskripsi: 'Minuman Highclass',
+        harga: '10.000',
+        gambar: 'gambar/minuman1.jpg',
     },
     
     {
         id: 2,
-        nama: 'Es Teh Pahit',
-        deskripsi: 'Minuman teh pahit yang segar.',
-        harga: 5000,
-        gambar: 'img/mid1.jpg',
-        // ...
+        nama: 'Smoothies Alpukad',
+        deskripsi: 'Minuman Highclass',
+        harga: '10.000',
+        gambar: 'gambar/minuman2.jpg',
     },
+
+    {
+        id: 3,
+        nama: 'Smoothies Jeruk',
+        deskripsi: 'Minuman Highclass',
+        harga: '10.000',
+        gambar: 'gambar/minuman3.jpg',
+    },
+
     // ... item lainnya
 ];
 
@@ -103,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tampilkanSlide(currentSlide);
     }
 
-    setInterval(gantiSlide, 3000); // Ganti slide setiap 3 detik
+    setInterval(gantiSlide, 1000); // Ganti slide setiap 3 detik
 });
 // ... (selesai) ...
 
